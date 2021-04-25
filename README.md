@@ -7,7 +7,7 @@
 3. Przejść do folderu, w którym znajduje się projekt (Allegro-Internship)<br/>
 4. Zainstalować potrzebne biblioteki: pip install -r requirements.txt<br/>
 5. Uruchomienie serwera: python manage.py runserver<br/>
-6. W przypadku przekroczenia limitu requestów wykonywanych do API GitHuba należy zamieścić wygenerowany prywatny token (https://github.com/settings/tokens) w pliku settings.py <br/>
+6. W przypadku przekroczenia limitu requestów wykonywanych do API GitHuba należy zamieścić wygenerowany prywatny token (https://github.com/settings/tokens) w pliku settings.py 
 w zmiennej GITHUB_TOKEN = token w postaci stringa<br/>
 <br/>
 API

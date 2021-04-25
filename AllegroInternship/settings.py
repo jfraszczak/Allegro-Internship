@@ -126,4 +126,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-GITHUB_TOKEN = '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'
+GITHUB_TOKEN = None

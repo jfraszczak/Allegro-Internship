@@ -13,9 +13,9 @@ def user_parameter_given(request):
 
 def build_api_url(request):
     user = request.GET['user']
-    url = 'https://api.github.com/users/{}/repos?per_page=4'.format(user)
+    url = 'https://api.github.com/users/{}/repos'.format(user)
     if page_parameter_given(request):
-        url += '&page=' + request.GET['page']
+        url += '?page=' + request.GET['page']
 
     return url
 
